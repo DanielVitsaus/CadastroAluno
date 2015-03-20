@@ -3,21 +3,15 @@ package br.com.danielandre.cadastroaluno;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 import br.com.danielandre.cadastroaluno.dao.AlunoDAO;
@@ -27,9 +21,9 @@ import br.com.danielandre.cadastroaluno.modelo.Aluno;
 public class Main extends ActionBarActivity {
 
     //Atributos da tela
-    private EditText edNome;
-    private EditText tel;
-    private Button bt;
+    //private EditText edNome;
+    //private EditText tel;
+    //private Button bt;
     private ListView listagemAluno;
 
 
