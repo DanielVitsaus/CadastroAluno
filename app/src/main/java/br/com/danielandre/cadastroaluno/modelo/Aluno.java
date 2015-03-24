@@ -5,7 +5,7 @@ package br.com.danielandre.cadastroaluno.modelo;
  */
 public class Aluno {
 
-    private long id;
+    private Long id;
     private String nome;
     private String telefone;
     private String enderecao;
@@ -24,7 +24,7 @@ public class Aluno {
 
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
